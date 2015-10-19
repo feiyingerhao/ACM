@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\3">
+      <UniqueIdentifier>{f750577e-8e73-44ff-a7b2-63ff2d125459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\4">
+      <UniqueIdentifier>{e785a748-0cdd-4680-8490-9f3516e75c71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ACM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="funcHeaderAchieve.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="content.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="describe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ACM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="globalVar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Data\3-1.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-1-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-2.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-2-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-3.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-3-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-4.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-4-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-5.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-5-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-6.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-6-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-7.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-7-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-8.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-8-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-9.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-9-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-10.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-10-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-11.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-11-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-12.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-12-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-13.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-13-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-14.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-14-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-15.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-15-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-16.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-16-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-17.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\3-17-0.txt">
+      <Filter>资源文件\3</Filter>
+    </Text>
+    <Text Include="..\Data\4-1.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-1-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-2.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-2-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-3.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-3-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-4.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-4-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-5.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-5-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-6.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-6-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-7.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-7-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-8.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-8-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-9.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-9-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-10.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-10-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-11.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-11-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-12.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-12-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-13.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-13-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-14.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-14-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-15.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-15-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-16.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-16-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-17.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-17-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-18.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-18-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-19.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-19-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-20.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-20-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-21.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-21-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-22.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-22-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-23.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-23-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-24.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-24-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-25.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-25-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-26.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-26-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-27.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-27-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-28.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-28-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-29.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-29-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-30.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-30-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-31.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-31-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-32.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-32-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-33.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-33-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-34.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-34-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-35.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-35-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-36.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-36-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-37.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-37-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-38.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-38-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-39.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-39-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-40.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-40-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-41.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-41-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-42.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-42-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-43.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-43-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-44.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-44-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-45.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-45-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-46.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-46-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-47.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-47-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-48.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-48-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-49.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-49-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-50.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+    <Text Include="..\Data\4-50-0.txt">
+      <Filter>资源文件\4</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

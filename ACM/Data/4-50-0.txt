@@ -1,0 +1,25 @@
+﻿A numeric sequence of ai is ordered if a1 < a2 <􀀢< aN . Let the subsequence of the
+given numeric sequence ( N a , a , , a 1 2 􀀢 ) be any sequence ( i i iK a , a , , a 1 2 􀀢 ), where
+1≤i1< i2 <􀀢< iK≤N . For example, the sequence (1, 7, 3, 5, 9, 4, 8) has ordered
+subsequences, e.g., (1, 7), (3, 4, 8) and many others. All longest ordered subsequences of this
+sequence are of length 4, e.g., (1, 3, 5, 8).
+Your program, when given the numeric sequence, must find the length of its longest ordered
+subsequence.
+Input
+The first line of input contains the length of sequence N (1≤N≤1000 ). The second line
+contains the elements of sequence—N integers in the range from 0 to 10 000 each, separated by
+spaces.
+Output
+Output must contain a single integer—the length of the longest ordered subsequence of the
+given sequence.
+This problem contains multiple test cases!
+The first line of a multiple input is an integer N, then a blank line followed by N input
+blocks. Each input block is in the format indicated in the problem description. There is a blank
+line between input blocks.
+The output format consists of N output blocks. There is a blank line between output blocks.
+Sample Input
+1
+7
+1 7 3 5 9 4 8
+Sample Output
+4

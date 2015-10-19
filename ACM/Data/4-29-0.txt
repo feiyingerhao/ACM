@@ -1,0 +1,23 @@
+Prime Number Definition
+An integer greater than one is called a prime number if its only positive divisors (factors)
+are one and itself. For instance, 2, 11, 67, 89 are prime numbers but 8, 20, 27 are not.
+Semi-Prime Number Definition
+An integer greater than one is called a semi-prime number if it can be decompounded to
+TWO prime numbers. For example, 6 is a semi-prime number but 12 is not.
+Your task is just to determinate whether a given number is a semi-prime number.
+Input
+There are several test cases in the input. Each case contains a single integer N (2¡ÜN¡Ü
+1 000 000).
+Output
+One line with a single integer for each case. If the number is a semi-prime number, then
+output ¡°Yes¡±, otherwise ¡°No¡±.
+Sample Input
+3
+4
+6
+12
+Sample Output
+No
+Yes
+Yes
+No

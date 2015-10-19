@@ -1,0 +1,42 @@
+The image stored on a computer can be represented as a matrix of pixels. In the RGB
+(Red-Green-Blue) color system, a pixel can be described as a triplex integer numbers. That is,
+the color of a pixel is in the format ¡°r g b¡± where r, g and b are integers ranging from 0 to 255
+(inclusive) which represent the Red, Green and Blue level of that pixel.
+Sometimes however, we may need a gray picture instead of a colorful one. One of the
+simplest way to transform a RGB picture into gray: for each pixel, we set the Red, Green and
+Blue level to a same value which is usually the average of the Red, Green and Blue level of that
+pixel (that is (r + g + b)/3, here we assume that the sum of r, g and b is always dividable by 3).
+You decide to write a program to test the effectiveness of this method.
+Input
+The input contains multiple test cases!
+Each test case begins with two integer numbers N and M (1¡ÜN, M¡Ü100) meaning the
+height and width of the picture, then three N * M matrices follow; respectively represent the Red,
+Green and Blue level of each pixel.
+A line with N = 0 and M = 0 signals the end of the input, which should not be proceed.
+Output
+For each test case, output ¡°Case #:¡± first. ¡°#¡± is the number of the case, which starts from 1.
+Then output a matrix of N * M integers which describe the gray levels of the pixels in the
+resultant grayed picture. There should be N lines with M integers separated by a comma.
+Sample Input
+2 2
+1 4
+6 9
+2 5
+7 10
+3 6
+8 11
+2 3
+0 1 2
+3 4 2
+0 1 2
+3 4 3
+0 1 2
+3 4 4
+0 0
+Sample Output
+Case 1:
+2,5
+7,10
+Case 2:
+0,1,2
+3,4,3

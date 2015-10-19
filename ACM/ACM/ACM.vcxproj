@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3D8DD35B-A042-4F9E-9DEB-FAD9610F0882}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ACM</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ACM.cpp" />
+    <ClCompile Include="content.cpp" />
+    <ClCompile Include="describe.cpp" />
+    <ClCompile Include="funcHeaderAchieve.cpp" />
+    <ClCompile Include="function.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ACM.h" />
+    <ClInclude Include="function.h" />
+    <ClInclude Include="globalVar.h" />
+    <ClInclude Include="struct.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Data\3-1-0.txt" />
+    <Text Include="..\Data\3-1.txt" />
+    <Text Include="..\Data\3-10-0.txt" />
+    <Text Include="..\Data\3-10.txt" />
+    <Text Include="..\Data\3-11-0.txt" />
+    <Text Include="..\Data\3-11.txt" />
+    <Text Include="..\Data\3-12-0.txt" />
+    <Text Include="..\Data\3-12.txt" />
+    <Text Include="..\Data\3-13-0.txt" />
+    <Text Include="..\Data\3-13.txt" />
+    <Text Include="..\Data\3-14-0.txt" />
+    <Text Include="..\Data\3-14.txt" />
+    <Text Include="..\Data\3-15-0.txt" />
+    <Text Include="..\Data\3-15.txt" />
+    <Text Include="..\Data\3-16-0.txt" />
+    <Text Include="..\Data\3-16.txt" />
+    <Text Include="..\Data\3-17-0.txt" />
+    <Text Include="..\Data\3-17.txt" />
+    <Text Include="..\Data\3-2-0.txt" />
+    <Text Include="..\Data\3-2.txt" />
+    <Text Include="..\Data\3-3-0.txt" />
+    <Text Include="..\Data\3-3.txt" />
+    <Text Include="..\Data\3-4-0.txt" />
+    <Text Include="..\Data\3-4.txt" />
+    <Text Include="..\Data\3-5-0.txt" />
+    <Text Include="..\Data\3-5.txt" />
+    <Text Include="..\Data\3-6-0.txt" />
+    <Text Include="..\Data\3-6.txt" />
+    <Text Include="..\Data\3-7-0.txt" />
+    <Text Include="..\Data\3-7.txt" />
+    <Text Include="..\Data\3-8-0.txt" />
+    <Text Include="..\Data\3-8.txt" />
+    <Text Include="..\Data\3-9-0.txt" />
+    <Text Include="..\Data\3-9.txt" />
+    <Text Include="..\Data\4-1-0.txt" />
+    <Text Include="..\Data\4-1.txt" />
+    <Text Include="..\Data\4-10-0.txt" />
+    <Text Include="..\Data\4-10.txt" />
+    <Text Include="..\Data\4-11-0.txt" />
+    <Text Include="..\Data\4-11.txt" />
+    <Text Include="..\Data\4-12-0.txt" />
+    <Text Include="..\Data\4-12.txt" />
+    <Text Include="..\Data\4-13-0.txt" />
+    <Text Include="..\Data\4-13.txt" />
+    <Text Include="..\Data\4-14-0.txt" />
+    <Text Include="..\Data\4-14.txt" />
+    <Text Include="..\Data\4-15-0.txt" />
+    <Text Include="..\Data\4-15.txt" />
+    <Text Include="..\Data\4-16-0.txt" />
+    <Text Include="..\Data\4-16.txt" />
+    <Text Include="..\Data\4-17-0.txt" />
+    <Text Include="..\Data\4-17.txt" />
+    <Text Include="..\Data\4-18-0.txt" />
+    <Text Include="..\Data\4-18.txt" />
+    <Text Include="..\Data\4-19-0.txt" />
+    <Text Include="..\Data\4-19.txt" />
+    <Text Include="..\Data\4-2-0.txt" />
+    <Text Include="..\Data\4-2.txt" />
+    <Text Include="..\Data\4-20-0.txt" />
+    <Text Include="..\Data\4-20.txt" />
+    <Text Include="..\Data\4-21-0.txt" />
+    <Text Include="..\Data\4-21.txt" />
+    <Text Include="..\Data\4-22-0.txt" />
+    <Text Include="..\Data\4-22.txt" />
+    <Text Include="..\Data\4-23-0.txt" />
+    <Text Include="..\Data\4-23.txt" />
+    <Text Include="..\Data\4-24-0.txt" />
+    <Text Include="..\Data\4-24.txt" />
+    <Text Include="..\Data\4-25-0.txt" />
+    <Text Include="..\Data\4-25.txt" />
+    <Text Include="..\Data\4-26-0.txt" />
+    <Text Include="..\Data\4-26.txt" />
+    <Text Include="..\Data\4-27-0.txt" />
+    <Text Include="..\Data\4-27.txt" />
+    <Text Include="..\Data\4-28-0.txt" />
+    <Text Include="..\Data\4-28.txt" />
+    <Text Include="..\Data\4-29-0.txt" />
+    <Text Include="..\Data\4-29.txt" />
+    <Text Include="..\Data\4-3-0.txt" />
+    <Text Include="..\Data\4-3.txt" />
+    <Text Include="..\Data\4-30-0.txt" />
+    <Text Include="..\Data\4-30.txt" />
+    <Text Include="..\Data\4-31-0.txt" />
+    <Text Include="..\Data\4-31.txt" />
+    <Text Include="..\Data\4-32-0.txt" />
+    <Text Include="..\Data\4-32.txt" />
+    <Text Include="..\Data\4-33-0.txt" />
+    <Text Include="..\Data\4-33.txt" />
+    <Text Include="..\Data\4-34-0.txt" />
+    <Text Include="..\Data\4-34.txt" />
+    <Text Include="..\Data\4-35-0.txt" />
+    <Text Include="..\Data\4-35.txt" />
+    <Text Include="..\Data\4-36-0.txt" />
+    <Text Include="..\Data\4-36.txt" />
+    <Text Include="..\Data\4-37-0.txt" />
+    <Text Include="..\Data\4-37.txt" />
+    <Text Include="..\Data\4-38-0.txt" />
+    <Text Include="..\Data\4-38.txt" />
+    <Text Include="..\Data\4-39-0.txt" />
+    <Text Include="..\Data\4-39.txt" />
+    <Text Include="..\Data\4-4-0.txt" />
+    <Text Include="..\Data\4-4.txt" />
+    <Text Include="..\Data\4-40-0.txt" />
+    <Text Include="..\Data\4-40.txt" />
+    <Text Include="..\Data\4-41-0.txt" />
+    <Text Include="..\Data\4-41.txt" />
+    <Text Include="..\Data\4-42-0.txt" />
+    <Text Include="..\Data\4-42.txt" />
+    <Text Include="..\Data\4-43-0.txt" />
+    <Text Include="..\Data\4-43.txt" />
+    <Text Include="..\Data\4-44-0.txt" />
+    <Text Include="..\Data\4-44.txt" />
+    <Text Include="..\Data\4-45-0.txt" />
+    <Text Include="..\Data\4-45.txt" />
+    <Text Include="..\Data\4-46-0.txt" />
+    <Text Include="..\Data\4-46.txt" />
+    <Text Include="..\Data\4-47-0.txt" />
+    <Text Include="..\Data\4-47.txt" />
+    <Text Include="..\Data\4-48-0.txt" />
+    <Text Include="..\Data\4-48.txt" />
+    <Text Include="..\Data\4-49-0.txt" />
+    <Text Include="..\Data\4-49.txt" />
+    <Text Include="..\Data\4-5-0.txt" />
+    <Text Include="..\Data\4-5.txt" />
+    <Text Include="..\Data\4-50-0.txt" />
+    <Text Include="..\Data\4-50.txt" />
+    <Text Include="..\Data\4-6-0.txt" />
+    <Text Include="..\Data\4-6.txt" />
+    <Text Include="..\Data\4-7-0.txt" />
+    <Text Include="..\Data\4-7.txt" />
+    <Text Include="..\Data\4-8-0.txt" />
+    <Text Include="..\Data\4-8.txt" />
+    <Text Include="..\Data\4-9-0.txt" />
+    <Text Include="..\Data\4-9.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
